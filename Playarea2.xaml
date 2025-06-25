@@ -1,0 +1,192 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="_20_c__Mail_Splitting" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:umae="clr-namespace:UiPath.Mail.Activities.Enums;assembly=UiPath.Mail.Activities" xmlns:usau="clr-namespace:UiPath.Shared.Activities.Utils;assembly=UiPath.Mail.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="idtExtractedData" Type="InArgument(sd:DataTable)" />
+    <x:Property Name="istrSubject" Type="InArgument(x:String)" />
+  </x:Members>
+  <VisualBasic.Settings>
+    <x:Null />
+  </VisualBasic.Settings>
+  <sap2010:WorkflowViewState.IdRef>_20_c__Mail_Splitting_1</sap2010:WorkflowViewState.IdRef>
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>UiPath.DataTableUtilities</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>UiPath.Mail.Activities.Business.HtmlEditor</x:String>
+      <x:String>UiPath.Mail.Activities.Business</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Mail.Activities</x:String>
+      <x:String>UiPath.Mail</x:String>
+      <x:String>UiPath.Mail.Activities.Enums</x:String>
+      <x:String>UiPath.Shared.Activities.Utils</x:String>
+      <x:String>UiPath.Mail.Outlook.Activities</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.Private.Xml</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Data.SqlClient</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.PDF.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Web.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.Mail</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.CodeDom</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic.Forms</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic.Core</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="_20_c__Mail_Splitting" sap:VirtualizedContainerService.HintSize="607.3333333333333,225.3733333333333" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="416,57.333333333333336" sap2010:WorkflowViewState.IdRef="CommentOut_1">
+      <ui:CommentOut.Body>
+        <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="450,108" sap2010:WorkflowViewState.IdRef="Sequence_3">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[idtExtractedData]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="416,48" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
+            <ui:ForEachRow.Body>
+              <ActivityAction x:TypeArguments="sd:DataRow">
+                <ActivityAction.Argument>
+                  <DelegateInArgument x:TypeArguments="sd:DataRow" Name="CurrentRow" />
+                </ActivityAction.Argument>
+                <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="416,280" sap2010:WorkflowViewState.IdRef="Sequence_2">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <ui:SendOutlookMail Bcc="{x:Null}" Cc="{x:Null}" ContinueOnError="{x:Null}" MailMessage="{x:Null}" ReplyTo="{x:Null}" TimeoutMS="{x:Null}" Account="tanishag5103@outlook.com" Body="[&quot;Guest Email ID: &quot;+CurrentRow(&quot;Guest Email ID&quot;).ToString+vbCrLf+&#xA;&quot;Guest Name: &quot;+CurrentRow(&quot;Guest Name&quot;).ToString+vbCrLf+&#xA;&quot;Property Name: &quot;+CurrentRow(&quot;Property Name&quot;).ToString+vbCrLf+&#xA; &quot;Arrival Date: &quot;+CurrentRow(&quot;Arrival Date&quot;).ToString+vbCrLf+&#xA; &quot;Departure Date: &quot;+CurrentRow(&quot;Departure Date&quot;).ToString+vbCrLf+&#xA; &quot;Booking Reference: &quot;+CurrentRow(&quot;Booking Reference&quot;).ToString+vbCrLf+&#xA; &quot;Number of Adults: &quot;+CurrentRow(&quot;Number of adults&quot;).ToString+vbCrLf+&#xA; &quot;Room Rate: &quot; + CurrentRow(&quot;Room Rate&quot;).ToString+vbCrLf+&#xA;&quot;Room Type: &quot;+CurrentRow(&quot;Room Type&quot;).ToString+vbCrLf+&#xA; &quot;Booking Type: &quot;+CurrentRow(&quot;Booking Type&quot;).ToString+vbCrLf+&#xA; &quot;Price: &quot;+CurrentRow(&quot;Price&quot;).ToString+vbCrLf+&#xA;&quot;Mail Message ID: &quot;+CurrentRow(&quot;Mail Message ID&quot;).ToString+vbCrLf+&#xA;&quot;Rate Code: &quot;+CurrentRow(&quot;Rate Code&quot;).ToString+vbCrLf+&#xA;&quot;Number of Nights: &quot;+CurrentRow(&quot;Number of Nights&quot;).ToString+vbCrLf]" ConnectionMode="LegacyConfiguration" DisplayName="Send Outlook Desktop Mail Message" sap:VirtualizedContainerService.HintSize="382,220" sap2010:WorkflowViewState.IdRef="SendOutlookMail_1" Importance="Normal" IsBodyHtml="False" IsDraft="False" Sensitivity="Normal" Subject="[istrSubject+&quot; Split&quot;]" To="tanishagrawal5103@outlook.com" UseISConnection="False">
+                    <ui:SendOutlookMail.ConnectionDetailsBackupSlot>
+                      <usau:BackupSlot x:TypeArguments="umae:ConnectionDetails" StoredValue="{x:Null}">
+                        <usau:BackupSlot.BackupValues>
+                          <scg:Dictionary x:TypeArguments="umae:ConnectionDetails, scg:List(x:Object)" />
+                        </usau:BackupSlot.BackupValues>
+                      </usau:BackupSlot>
+                    </ui:SendOutlookMail.ConnectionDetailsBackupSlot>
+                    <ui:SendOutlookMail.Files>
+                      <scg:List x:TypeArguments="InArgument(x:String)" Capacity="0" />
+                    </ui:SendOutlookMail.Files>
+                  </ui:SendOutlookMail>
+                </Sequence>
+              </ActivityAction>
+            </ui:ForEachRow.Body>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+          </ui:ForEachRow>
+        </Sequence>
+      </ui:CommentOut.Body>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </ui:CommentOut>
+    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="416,48" sap2010:WorkflowViewState.IdRef="CommentOut_2">
+      <ui:CommentOut.Body>
+        <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="450,248" sap2010:WorkflowViewState.IdRef="Sequence_4">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <ui:InvokeCode ContinueOnError="{x:Null}" Code="Dim match As System.Text.RegularExpressions.Match&#xD;&#xA;Dim strVariable As System.String&#xD;&#xA;odictRegexData= New Dictionary(Of String,String)&#xD;&#xA;For Each varName As Newtonsoft.Json.Linq.JProperty In ijobjRegex.Item(istrInvoiceSource)&#xD;&#xA;&#x9;Dim varObjects As Newtonsoft.Json.Linq.JToken = varName.Value&#xD;&#xA;&#x9;For Each i As Newtonsoft.Json.Linq.JProperty In varObjects&#xD;&#xA;&#x9;&#x9;Dim varRegexList As Newtonsoft.Json.Linq.JToken = i.Value&#xD;&#xA;&#x9;&#x9;Dim intCount As Int32=1&#xD;&#xA;&#x9;&#x9;For Each  regex As Newtonsoft.Json.Linq.JToken In varRegexList.Children()&#xD;&#xA;&#x9;&#x9;&#x9;If varName.Name.ToString.Equals(&quot;dtDetails&quot;)&#xD;&#xA;&#x9;&#x9;&#x9;Dim regexMatch As New System.Text.RegularExpressions.Regex(regex.ToString)&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;For Each M As System.Text.RegularExpressions.Match In regexMatch.Matches(istrPdfText)&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;Dim strArrivalDate As System.String = If(M.Groups(&quot;arrival&quot;).Success, M.Groups(&quot;arrival&quot;).Value.Trim,String.Empty)&#x9;&#x9;&#x9;&#x9;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;Dim strDepartureDate As System.String = If(M.Groups(&quot;departure&quot;).Success, M.Groups(&quot;departure&quot;).Value.Trim, String.Empty)&#x9;&#x9;&#x9;&#x9;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;Dim strRoomType As System.String = If(M.Groups(&quot;roomType&quot;).Success, M.Groups(&quot;roomType&quot;).Value.Trim,String.Empty)&#x9;&#x9;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;Dim strRate As System.String = If(M.Groups(&quot;rate&quot;).Success, M.Groups(&quot;rate&quot;).Value.Trim, String.Empty)&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;Dim strGuest As System.String = If(M.Groups(&quot;guest&quot;).Success, M.Groups(&quot;guest&quot;).Value.Trim, String.Empty)&#x9;&#x9;&#x9;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;Dim strReference As System.String = If(M.Groups(&quot;reference&quot;).Success, M.Groups(&quot;reference&quot;).Value.Trim, String.Empty)&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;Dim strEmailID As System.String = If(M.Groups(&quot;emailId&quot;).Success, M.Groups(&quot;emailId&quot;).Value.Trim, String.Empty)&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;Dim strProperty As System.String = If(M.Groups(&quot;property&quot;).Success, M.Groups(&quot;property&quot;).Value.Trim, String.Empty)&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;Dim strNumberOfAdults As System.String = If(M.Groups(&quot;numberOfAdults&quot;).Success, M.Groups(&quot;numberOfAdults&quot;).Value.Trim, String.Empty)&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;iodtDetailedInvoice.rows.Add(&quot;&quot;,strEmailID,strGuest,strProperty,strArrivalDate,strDepartureDate,strReference,strNumberOfAdults,strRate,strRoomType,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;)&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;Next&#xD;&#xA;&#x9;&#x9;&#x9;Else&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;Dim regexvar As New System.Text.RegularExpressions.Regex(regex.ToString)&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;match = regexvar.Match(istrPdfText)&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;If match.Success Then&#xD;&#xA;&#x9;&#x9;&#x9;   &#x9;&#x9;strVariable = match.groups(&quot;group&quot;).Value.ToString.trim&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;odictRegexData.Add(varName.Name.ToString,strVariable)&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;Exit For&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;Else&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;strVariable = String.Empty&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;If intCount=varRegexList.Children.Count&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;        odictRegexData.Add(varName.Name.ToString, strVariable)&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;End If&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;End If&#xD;&#xA;&#x9;&#x9;&#x9;End If&#xD;&#xA;&#x9;&#x9;&#x9;intCount = intCount + 1&#xD;&#xA;        Next&#xD;&#xA;&#x9;Next&#xD;&#xA;Next" DisplayName="Invoke Code" sap:VirtualizedContainerService.HintSize="416,188" sap2010:WorkflowViewState.IdRef="InvokeCode_1">
+            <ui:InvokeCode.Arguments>
+              <scg:Dictionary x:TypeArguments="x:String, Argument" />
+            </ui:InvokeCode.Arguments>
+          </ui:InvokeCode>
+        </Sequence>
+      </ui:CommentOut.Body>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </ui:CommentOut>
+  </Sequence>
+</Activity>

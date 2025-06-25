@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="MLH_EkblqkyImJoo8acXUA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="forms.office.com/pages/responsepage.aspx" CVScreenId="5caaa6e8-a9cb-4b25-99ac-37ba8155e13e" CvElementArea="437, 876, 1096, 55" CvType="InputBox" DesignTimeRectangle="439, 879, 1095, 51" DesignTimeScaleFactor="1.5" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl aria-label='Single line text' aria-labelledby='QuestionId_r201fc484ea944ef6a645de26f107ee3c QuestionInfo_r201fc484ea944ef6a645de26f107ee3c' tag='INPUT' type='' class='-a_-67' placeholder='Enter your answer' aaname='' /&gt;" Guid="eecd3a4f-db7d-4f01-b19e-e9bd6adb9c21" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Booking Details' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="5caaa6e8-a9cb-4b25-99ac-37ba8155e13e" CvTextArea="407, 822, 21, 22" CvTextArgument="6." CvType="Text" DesignTimeRectangle="409, 816, 28, 30" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='6.' class='-hs-58' tag='SPAN' type='' check:innerText='6.' /&gt;" Guid="f3aa906c-de27-45e5-9d8d-91d4295c98bd" SearchSteps="FuzzySelector, CV" />
+          <Target CVScreenId="5caaa6e8-a9cb-4b25-99ac-37ba8155e13e" CvTextArea="434, 822, 132, 22" CvTextArgument="Arrival date" CvType="Text" DesignTimeRectangle="437, 815, 129, 34" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Arrival date' tag='SPAN' type='' class='text-format-content ' check:innerText='Arrival date' /&gt;" Guid="85acd1d2-a742-461e-9827-ba444589313d" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="b213bf05c65bbffb2705eb020b17496e.png" xmlns="">0rYZz6oqvCEG5wUvPn5eFhg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

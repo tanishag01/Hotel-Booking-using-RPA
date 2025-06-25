@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="sjUyYiJCvEKg9fVvuRGLkA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="forms.office.com/pages/responsepage.aspx" CVScreenId="83560e71-9ac4-4b22-9f46-1b8c2950f7ab" CvElementArea="438, 906, 38, 38" CvType="RadioButton" DesignTimeRectangle="439, 906, 36, 36" DesignTimeScaleFactor="1.5" ElementType="RadioButton" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='radio' class='-h--86' aaname='' /&gt;" Guid="6ded4314-11ec-4618-a567-d6b472cfa025" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Booking Details' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="83560e71-9ac4-4b22-9f46-1b8c2950f7ab" CvTextArea="483, 915, 124, 19" CvTextArgument="Confirmation" CvType="Text" DesignTimeRectangle="487, 906, 121, 36" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='QuestionChoiceOption1' tag='SPAN' type='' class='text-format-content css-89' aaname='Confirmation' check:innerText='Confirmation' /&gt;" Guid="7e4d1e88-0919-45f2-b24d-cf9db39fc440" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="a6b1e76b59603047d8b324a4d96e8d76.png" xmlns="">0baue6XlII0OBr3COabafFQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

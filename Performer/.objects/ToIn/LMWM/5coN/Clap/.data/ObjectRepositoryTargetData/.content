@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="n0f-pI5gJEOjZ5ooUoE1sA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="forms.office.com/pages/responsepage.aspx" CVScreenId="6b5ac5d9-3bdc-4403-a0ad-4a7514335be8" CvElementArea="438, 646, 1096, 56" CvType="InputBox" DesignTimeRectangle="439, 649, 1095, 51" DesignTimeScaleFactor="1.5" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='' class='-a_-67' placeholder='Enter your answer' aaname='' /&gt;" Guid="7f326d82-15e9-446b-9f75-00d3b3e883f3" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Booking Details' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="6b5ac5d9-3bdc-4403-a0ad-4a7514335be8" CvTextArea="408, 591, 19, 22" CvTextArgument="1." CvType="Text" DesignTimeRectangle="409, 586, 28, 30" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='-hs-58' tag='SPAN' type='' aaname='1.' check:innerText='1.' /&gt;" Guid="7138a949-14bc-4185-8098-2c7d67252f31" SearchSteps="FuzzySelector, CV" />
+          <Target CVScreenId="6b5ac5d9-3bdc-4403-a0ad-4a7514335be8" CvTextArea="435, 593, 136, 22" CvTextArgument="Guest name" CvType="Text" DesignTimeRectangle="437, 585, 134, 34" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Guest name' tag='SPAN' type='' class='text-format-content ' check:innerText='Guest name' /&gt;" Guid="21a29dbc-f1a3-43e3-a21b-6a8c786c9530" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="c198b2a6e4b5cf8b2fbddac38b8f1bbc.png" xmlns="">0qZkr-x4ISkeaq8t-IG6zdw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

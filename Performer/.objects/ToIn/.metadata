@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Chrome Booking Details",
+  "Type": "App",
+  "Id": "ToInMZt5hUSEts7yU-yyWQ",
+  "Reference": "c0lIELDyUkO451knwyQZnQ/ToInMZt5hUSEts7yU-yyWQ",
+  "Created": "2025-06-06T22:55:55.3273527Z",
+  "Updated": "2025-06-06T22:55:55.3273527Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

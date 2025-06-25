@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="d_dZ-5oBwkSGiXjq23taHw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="forms.office.com/pages/responsepage.aspx" CVScreenId="c2552834-2cbc-47e0-8ecf-6aa758b3bd64" CvElementArea="437, 666, 1098, 54" CvType="InputBox" DesignTimeRectangle="439, 668, 1095, 51" DesignTimeScaleFactor="1.5" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl aria-labelledby='QuestionId_r42af281b971a43d2bd279eaf04b1ed2a QuestionInfo_r42af281b971a43d2bd279eaf04b1ed2a' tag='INPUT' type='' class='-a_-67' placeholder='Enter your answer' aaname='' /&gt;" Guid="4ca5b6a2-8290-44fa-bc80-8b025a29545f" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Booking Details' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="c2552834-2cbc-47e0-8ecf-6aa758b3bd64" CvTextArea="435, 611, 304, 28" CvTextArgument="Booking reference number" CvType="Text" DesignTimeRectangle="437, 604, 300, 34" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Booking reference number' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Booking reference number' tag='SPAN' type='' class='text-format-content ' check:innerText='Booking reference number' /&gt;" Guid="752f3311-067b-4b31-9626-e3c2efa7e995" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="f6ee6e1542ce2ba9579d266bb812b759.png" xmlns="">0jCDnk74iuUKw8Q1b6mzDdg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

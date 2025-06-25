@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="B-3jqAbDDE6iumNfVr6FkA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="forms.office.com/pages/responsepage.aspx" CVScreenId="ab7ffe56-6077-4362-9b71-6adfec1ff9a7" CvElementArea="405, 519, 136, 65" CvTextArea="437, 540, 72, 21" CvTextArgument="Submit" CvType="Button" DesignTimeRectangle="409, 521, 130, 60" DesignTimeScaleFactor="1.5" ElementType="Button" FuzzySelectorArgument="&lt;webctrl class='css-198' tag='BUTTON' type='' aaname='Submit' check:innerText='Submit' /&gt;" Guid="bd5d8408-8d44-4ffd-8329-7bb5112006a5" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Booking Details' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.PointOffset>
+        <PointOffset Position="BottomRight" X="-38" Y="-21" />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="edc9dcd183f06ba5053ed36081f59a9f.png" xmlns="">0xauNRVbuJUq6Ms8g4ammtg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

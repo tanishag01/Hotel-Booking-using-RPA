@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="RltZRqJn8EGl22qlY8DuPw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="forms.office.com/pages/responsepage.aspx" CVScreenId="46422add-e10e-4055-8b05-0048ebc92976" CvElementArea="438, 657, 1095, 55" CvType="InputBox" DesignTimeRectangle="439, 660, 1095, 51" DesignTimeScaleFactor="1.5" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl aria-label='Single line text' aria-labelledby='QuestionId_r4aca5a82b46943809fdbec9143c52c5f QuestionInfo_r4aca5a82b46943809fdbec9143c52c5f' tag='INPUT' type='' class='-a_-67' placeholder='Enter your answer' aaname='' /&gt;" Guid="ab21b22d-ce08-40cd-af7c-9961f308652e" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Booking Details' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="46422add-e10e-4055-8b05-0048ebc92976" CvTextArea="437, 603, 166, 28" CvTextArgument="Property name" CvType="Text" DesignTimeRectangle="437, 596, 166, 34" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Property name' tag='SPAN' type='' class='text-format-content ' check:innerText='Property name' /&gt;" Guid="3f539dc7-7482-4a7d-9c24-1609e4dae98b" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="70cb87cacd55bdccfd3e1735021e69b5.png" xmlns="">0qRDNyEL1sEa3BgXWFOFYwg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

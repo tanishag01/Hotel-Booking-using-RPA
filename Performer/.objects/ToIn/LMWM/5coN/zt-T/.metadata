@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Confirmation",
+  "Type": "Element",
+  "TaxonomyType": "RadioButton",
+  "Id": "zt-TfQ6Ig0CVK7vbkI-lyg",
+  "Reference": "c0lIELDyUkO451knwyQZnQ/zt-TfQ6Ig0CVK7vbkI-lyg",
+  "ParentRef": "c0lIELDyUkO451knwyQZnQ/5coNlrxNaUuqhBDR6SwILQ",
+  "Created": "2025-06-06T23:01:03.1836772Z",
+  "Updated": "2025-06-06T23:01:03.1836772Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

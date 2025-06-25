@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="XMwPYpGsiES7laLjylyPSA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="forms.office.com/pages/responsepage.aspx" CVScreenId="6563aae0-98b5-41fd-b67a-5f943e968c43" CvElementArea="434, 496, 1104, 53" CvType="InputBox" DesignTimeRectangle="439, 498, 1095, 51" DesignTimeScaleFactor="1.5" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl aria-label='Single line text' aria-labelledby='QuestionId_r42af281b971a43d2bd279eaf04b1ed2a QuestionInfo_r42af281b971a43d2bd279eaf04b1ed2a' tag='INPUT' type='' class='-a_-67' placeholder='Enter your answer' aaname='' /&gt;" Guid="a3c61563-c91c-4112-880e-88bcb5bba90b" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Booking Details' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="6563aae0-98b5-41fd-b67a-5f943e968c43" CvTextArea="407, 440, 21, 24" CvTextArgument="7." CvType="Text" DesignTimeRectangle="409, 435, 28, 30" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='7.' class='-hs-58' tag='SPAN' type='' check:innerText='7.' /&gt;" Guid="2a775c0f-3254-43e2-8c66-c9cd95c8cd33" SearchSteps="FuzzySelector, CV" />
+          <Target CVScreenId="6563aae0-98b5-41fd-b67a-5f943e968c43" CvTextArea="435, 441, 304, 28" CvTextArgument="Booking reference number" CvType="Text" DesignTimeRectangle="437, 434, 300, 34" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Booking reference number' tag='SPAN' type='' class='text-format-content ' check:innerText='Booking reference number' /&gt;" Guid="d4006d6a-796e-4531-aa39-645985234d61" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="876180b5980dec13163f3cea7c12bc30.png" xmlns="">0m9uDPVY5UkSkAMha8YOQKw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Booking reference number",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "kNdW21NbB0-jLY3yhyvGHg",
+  "Reference": "c0lIELDyUkO451knwyQZnQ/kNdW21NbB0-jLY3yhyvGHg",
+  "ParentRef": "c0lIELDyUkO451knwyQZnQ/5coNlrxNaUuqhBDR6SwILQ",
+  "Created": "2025-06-06T23:09:02.5208784Z",
+  "Updated": "2025-06-06T23:09:02.5208784Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

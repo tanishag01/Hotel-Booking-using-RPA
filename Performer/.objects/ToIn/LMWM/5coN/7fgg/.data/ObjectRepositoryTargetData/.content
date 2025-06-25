@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="L72BEQB5uUOU30P_YxeDvA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="forms.office.com/pages/responsepage.aspx" CVScreenId="136bc6bc-9202-4cab-be57-a2795779e3ec" CvElementArea="443, 646, 1092, 54" CvType="InputBox" DesignTimeRectangle="439, 649, 1095, 51" DesignTimeScaleFactor="1.5" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='' class='-a_-67' placeholder='Enter your answer' aaname='' /&gt;" Guid="ca8cbee1-df4b-474e-a86e-68a05da5ff67" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Booking Details' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="136bc6bc-9202-4cab-be57-a2795779e3ec" CvTextArea="434, 593, 132, 22" CvTextArgument="Arrival date" CvType="Text" DesignTimeRectangle="437, 585, 129, 34" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Arrival date' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Arrival date' tag='SPAN' type='' class='text-format-content ' check:innerText='Arrival date' /&gt;" Guid="1ad49010-fe15-477a-b76c-42898c017cf5" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="e5e5cfdf6f0402c395bb5e6909acf59c.png" xmlns="">0h2l-gT7ez0anwFbbXG2OzA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

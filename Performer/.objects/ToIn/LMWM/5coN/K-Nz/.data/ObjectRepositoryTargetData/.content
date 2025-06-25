@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Ep9NbkC6006-l3mdQkBFbQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="forms.office.com/pages/responsepage.aspx" CVScreenId="20c4d903-5695-4c06-b01c-d326f969ae5c" CvElementArea="438, 884, 1097, 56" CvType="InputBox" DesignTimeRectangle="439, 887, 1095, 51" DesignTimeScaleFactor="1.5" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl aria-labelledby='QuestionId_r65c7aadea9264c54ac85407c48ed99a4 QuestionInfo_r65c7aadea9264c54ac85407c48ed99a4' tag='INPUT' type='' class='-a_-67' placeholder='Enter your answer' aaname='' /&gt;" Guid="80c829f7-ad28-409b-b654-92d4b4e53803" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Booking Details' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="20c4d903-5695-4c06-b01c-d326f969ae5c" CvTextArea="407, 830, 21, 22" CvTextArgument="3." CvType="Text" DesignTimeRectangle="409, 824, 28, 30" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='3.' class='-hs-58' tag='SPAN' type='' check:innerText='3.' /&gt;" Guid="b3605f07-9dbf-41ec-a5d2-11dff42e0b0e" SearchSteps="FuzzySelector, CV" />
+          <Target CVScreenId="20c4d903-5695-4c06-b01c-d326f969ae5c" CvTextArea="435, 830, 153, 28" CvTextArgument="No. of Nights" CvType="Text" DesignTimeRectangle="437, 823, 151, 34" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='No. of Nights' tag='SPAN' type='' class='text-format-content ' check:innerText='No. of Nights' /&gt;" Guid="5e95d423-3013-481c-bf12-3b18301c6d3a" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="58f3935bc1e09241f3e08d4b3bd5ce8b.png" xmlns="">0oQnqFKwjP0KrsYqOBFOI9A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

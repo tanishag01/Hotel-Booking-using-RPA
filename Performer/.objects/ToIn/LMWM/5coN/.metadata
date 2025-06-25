@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome Booking Details",
+  "Type": "Screen",
+  "Id": "5coNlrxNaUuqhBDR6SwILQ",
+  "Reference": "c0lIELDyUkO451knwyQZnQ/5coNlrxNaUuqhBDR6SwILQ",
+  "ParentRef": "c0lIELDyUkO451knwyQZnQ/LMWMepwdZE-DZBDAKKD6Uw",
+  "Created": "2025-06-06T22:55:55.4825487Z",
+  "Updated": "2025-06-06T22:55:55.4825487Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

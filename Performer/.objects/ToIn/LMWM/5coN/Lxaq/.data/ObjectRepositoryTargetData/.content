@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="q30Tu4S21UakmmQsZEJnrw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="forms.office.com/pages/responsepage.aspx" CVScreenId="83560e71-9ac4-4b22-9f46-1b8c2950f7ab" CvElementArea="438, 978, 37, 37" CvType="RadioButton" DesignTimeRectangle="439, 978, 36, 36" DesignTimeScaleFactor="1.5" ElementType="RadioButton" FuzzySelectorArgument="&lt;webctrl aria-labelledby='QuestionChoiceOption3' tag='INPUT' type='radio' class='-h--86' aaname='' /&gt;" Guid="0fd2775e-297c-4f50-9064-e80255e533de" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Booking Details' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="83560e71-9ac4-4b22-9f46-1b8c2950f7ab" CvTextArea="483, 987, 117, 19" CvTextArgument="Cancellation" CvType="Text" DesignTimeRectangle="487, 978, 113, 36" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='QuestionChoiceOption3' tag='SPAN' type='' class='text-format-content css-89' aaname='Cancellation' check:innerText='Cancellation' /&gt;" Guid="838e31ce-b7b4-4dff-adf2-ddece9b37a35" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="fa9b8163ba1ed1b12ef804701c07a7eb.png" xmlns="">0aLWvycJ5akStxqfDIRIZKQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

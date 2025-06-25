@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="36X3NfUV-UeJoU6Pux9tzg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="forms.office.com/pages/responsepage.aspx" CVScreenId="46422add-e10e-4055-8b05-0048ebc92976" CvElementArea="437, 876, 1095, 55" CvType="InputBox" DesignTimeRectangle="439, 879, 1095, 51" DesignTimeScaleFactor="1.5" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl aria-label='Single line text' aria-labelledby='QuestionId_r65c7aadea9264c54ac85407c48ed99a4 QuestionInfo_r65c7aadea9264c54ac85407c48ed99a4' tag='INPUT' type='' class='-a_-67' placeholder='Enter your answer' aaname='' /&gt;" Guid="001e7cc9-82a4-44d1-8ba2-f866e00fda06" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Booking Details' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="46422add-e10e-4055-8b05-0048ebc92976" CvTextArea="435, 822, 153, 28" CvTextArgument="No. of Nights" CvType="Text" DesignTimeRectangle="437, 815, 151, 34" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='No. of Nights' tag='SPAN' type='' class='text-format-content ' check:innerText='No. of Nights' /&gt;" Guid="e49ac52f-1d84-4579-82c8-8798d22e7794" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="6ee0cd7395e5e9079a866a263f33d130.png" xmlns="">0i_wVXYiAMEyV1p9VvD-jzA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

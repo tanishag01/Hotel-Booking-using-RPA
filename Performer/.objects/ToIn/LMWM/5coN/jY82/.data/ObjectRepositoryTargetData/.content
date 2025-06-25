@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="st40uymaUU2mAX8CsI1IwA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="forms.office.com/pages/responsepage.aspx" CVScreenId="017df0c7-01a3-4802-9eae-e2f8c761e1ca" CvElementArea="438, 650, 38, 37" CvType="RadioButton" DesignTimeRectangle="439, 650, 36, 36" DesignTimeScaleFactor="1.5" ElementType="RadioButton" FuzzySelectorArgument="&lt;webctrl aria-labelledby='QuestionChoiceOption5' tag='INPUT' type='radio' class='-h--86' aaname='' /&gt;" Guid="973a92cf-4b29-419a-9da5-e0ce9177a6cf" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Booking Details' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="017df0c7-01a3-4802-9eae-e2f8c761e1ca" CvTextArea="483, 659, 118, 21" CvTextArgument="Amendment" CvType="Text" DesignTimeRectangle="487, 650, 114, 36" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='QuestionChoiceOption5' tag='SPAN' type='' class='text-format-content css-89' aaname='Amendment' check:innerText='Amendment' /&gt;" Guid="bdce61df-cdc3-4988-b654-f54336056312" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="fb7a9f319eea72d1ec755b64b19a3744.png" xmlns="">0IihdO1TTikCUBYVeg2wR8Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

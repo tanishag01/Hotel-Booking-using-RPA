@@ -1,0 +1,9 @@
+{
+  "PDF": {
+    "dtDetails": {
+      "Regex": [
+        "(?<=Booking Reference: )(?'reference'\\d*)?\\s*Guest:\\s*(?'guest'[\\w\\s\\/]*)?(?=Guest Email)Guest\\s*Email\\s*Id:\\s*(?'emailId'[\\w\\.@]*)?\\s*.*\\s*(?=Property)Property\\s*Name:\\s*(?'property'[\\w\\s]*)?(?=Property)[\\w\\s\\:\\-\\,]*(?=Check-in)Check-in:\\s*(?'arrival'[\\w\\s\\d\\,]*)?(?=Check-out)Check-out:\\s*(?'departure'[\\w\\s\\d\\,]*)?(?=Room Type)Room\\s*Type:\\s*(?'roomType'[\\w\\s]*)?(?=Number of)Number\\s*of\\s*adults:\\s*(?'numberOfAdults'\\d{1})?\\s*[\\w\\s\\:]*(?=Room Rate)Room\\s*Rate:\\s*(?'rate'[\\d\\.]*)?\\s*(?=EUR)"
+      ]
+    }
+  }
+}
